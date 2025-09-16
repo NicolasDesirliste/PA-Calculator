@@ -1,0 +1,36 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 12,
+                        "durationMicroseconds": 277,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 8
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 15,
+                        "durationMicroseconds": 297,
+                        "errorMessage": "Cannot access value for name calculator",
+                        "functionName": "text",
+                        "line": 19
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 57,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 18
+                    }
+                ],
+                "filePath": "C:/Users/33769/Documents/MyCalculator/CalculatorDisplay.qml"
+            }
+        ],
+        "moduleId": "MyCalculator(appMyCalculator)"
+    }
+]

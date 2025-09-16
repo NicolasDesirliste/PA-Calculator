@@ -1,0 +1,132 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 215,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 13
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 26,
+                        "durationMicroseconds": 619,
+                        "errorMessage": "",
+                        "functionName": "orientation",
+                        "line": 15
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 2706,
+                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
+                        "functionName": "onPaint",
+                        "line": 25
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 48,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 23
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 54,
+                        "errorMessage": "",
+                        "functionName": "orientation",
+                        "line": 54
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "Cannot access value for name height",
+                        "functionName": "y",
+                        "line": 62
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 26,
+                        "durationMicroseconds": 248,
+                        "errorMessage": "",
+                        "functionName": "onTriggered",
+                        "line": 72
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 68,
+                        "errorMessage": "",
+                        "functionName": "onFinished",
+                        "line": 95
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 42,
+                        "errorMessage": "",
+                        "functionName": "target",
+                        "line": 84
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 143,
+                        "errorMessage": "",
+                        "functionName": "to",
+                        "line": 86
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 59,
+                        "errorMessage": "",
+                        "functionName": "target",
+                        "line": 90
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 78,
+                        "errorMessage": "",
+                        "functionName": "to",
+                        "line": 92
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 29,
+                        "durationMicroseconds": 193,
+                        "errorMessage": "Cannot access value for name calculator",
+                        "functionName": "calculatorInstance",
+                        "line": 104
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 41,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 103
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 182,
+                        "errorMessage": "Cannot access value for name calculator",
+                        "functionName": "onCompleted",
+                        "line": 106
+                    }
+                ],
+                "filePath": "C:/Users/33769/Documents/MyCalculator/CalculatorWindow.qml"
+            }
+        ],
+        "moduleId": "MyCalculator(appMyCalculator)"
+    }
+]
