@@ -6,26 +6,26 @@
                     {
                         "codegenSuccessful": true,
                         "column": 12,
-                        "durationMicroseconds": 31430,
+                        "durationMicroseconds": 284,
                         "errorMessage": "",
                         "functionName": "width",
-                        "line": 8
+                        "line": 7
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 15,
-                        "durationMicroseconds": 561,
+                        "durationMicroseconds": 589,
                         "errorMessage": "Cannot access value for name calculator",
                         "functionName": "text",
-                        "line": 19
+                        "line": 18
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 244,
+                        "durationMicroseconds": 84,
                         "errorMessage": "",
                         "functionName": "centerIn",
-                        "line": 18
+                        "line": 17
                     }
                 ],
                 "filePath": "C:/Users/33769/Documents/MyCalculator/CalculatorDisplay.qml"

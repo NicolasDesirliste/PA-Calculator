@@ -13,6 +13,14 @@
                     },
                     {
                         "codegenSuccessful": false,
+                        "column": 12,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"width\".",
+                        "functionName": "width",
+                        "line": 13
+                    },
+                    {
+                        "codegenSuccessful": false,
                         "column": 16,
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find signal \"clicked\".",
@@ -22,7 +30,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 15,
-                        "durationMicroseconds": 22646,
+                        "durationMicroseconds": 97,
                         "errorMessage": "Cannot access value for name buttonText",
                         "functionName": "text",
                         "line": 25
@@ -30,7 +38,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 30,
-                        "durationMicroseconds": 556,
+                        "durationMicroseconds": 295,
                         "errorMessage": "Cannot access value for name Text",
                         "functionName": "horizontalAlignment",
                         "line": 29
@@ -38,7 +46,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 327,
+                        "durationMicroseconds": 189,
                         "errorMessage": "Cannot access value for name Text",
                         "functionName": "verticalAlignment",
                         "line": 30

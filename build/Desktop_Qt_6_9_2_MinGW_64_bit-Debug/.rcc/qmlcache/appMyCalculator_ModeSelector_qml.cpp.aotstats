@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 15,
-                        "durationMicroseconds": 94,
+                        "durationMicroseconds": 90,
                         "errorMessage": "Cannot access value for name modeSelector",
                         "functionName": "text",
                         "line": 25
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 312,
+                        "durationMicroseconds": 232,
                         "errorMessage": "Cannot access value for name Text",
                         "functionName": "verticalAlignment",
                         "line": 29
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 24,
-                        "durationMicroseconds": 19,
+                        "durationMicroseconds": 11,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "right",
                         "line": 38
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 33,
-                        "durationMicroseconds": 14,
+                        "durationMicroseconds": 7,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "verticalCenter",
                         "line": 40
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 29,
-                        "durationMicroseconds": 16,
+                        "durationMicroseconds": 7,
                         "errorMessage": "Cannot access value for name contentHeight",
                         "functionName": "implicitHeight",
                         "line": 52
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 20,
-                        "durationMicroseconds": 89,
+                        "durationMicroseconds": 57,
                         "errorMessage": "Cannot access value for name modeSelector",
                         "functionName": "model",
                         "line": 53
@@ -94,7 +94,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 27,
-                        "durationMicroseconds": 27,
+                        "durationMicroseconds": 13,
                         "errorMessage": "Cannot access value for name modeSelector",
                         "functionName": "currentIndex",
                         "line": 54
@@ -110,7 +110,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 19,
-                        "durationMicroseconds": 355,
+                        "durationMicroseconds": 295,
                         "errorMessage": "Cannot access value for name modelData",
                         "functionName": "text",
                         "line": 73
@@ -118,7 +118,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 32,
-                        "durationMicroseconds": 215,
+                        "durationMicroseconds": 220,
                         "errorMessage": "Cannot access value for name Text",
                         "functionName": "verticalAlignment",
                         "line": 76

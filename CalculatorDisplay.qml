@@ -1,6 +1,5 @@
 // CalculatorDisplay.qml - Composant pour l'écran d'affichage
 
-// CalculatorDisplay.qml - Composant pour l'écran d'affichage
 import QtQuick
 
 Rectangle {

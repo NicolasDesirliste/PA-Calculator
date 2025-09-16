@@ -3,7 +3,7 @@ import QtQuick.Controls
 
 ComboBox {
     id: modeSelector
-    width: 150
+    width: 180
     height: 40
 
     // Signal émis quand le mode change

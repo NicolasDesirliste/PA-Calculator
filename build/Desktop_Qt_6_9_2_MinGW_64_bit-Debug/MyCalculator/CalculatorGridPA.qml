@@ -1,117 +1,95 @@
 import QtQuick
+import QtQuick.Controls
 
 Column {
-    id: paGrid
-    spacing: 15  // Espacement augmenté
+    // PROPRIÉTÉS DE LA GRILLE
+    id: grid
+    spacing: 10
     anchors.horizontalCenter: parent.horizontalCenter
-
-    // Signaux exposés vers le parent
+    // SIGNAUX EXPOSÉS - Propagés vers le parent
     signal buttonClicked(string text, string type)
     signal pensionCalculationRequested(string type, string mode, int children)
 
-    // État interne
-    property int selectedChildren: 1
-
-    // Ligne 1 : Clear et sélecteur d'enfants - bien en dessous de l'écran
+    // Ligne 1
     Row {
-        anchors.horizontalCenter: parent.horizontalCenter
-        spacing: 15  // Plus d'espacement entre C et le sélecteur
-
-        CalculatorButton {
-            buttonText: "C"
-            buttonType: "action"
-            buttonColor: "#e74c3c"
-            onButtonClicked: function(text, type) {
-                paGrid.buttonClicked(text, type)
-            }
-        }
-
-        ChildrenSelector {
-            id: childrenSelector
-            onChildrenChanged: function(count) {
-                selectedChildren = count
-                console.log("Nombre d'enfants sélectionné:", count)
-            }
-        }
-    }
-
-    // Lignes de chiffres 7-9, 4-6, 1-3
-    Grid {
-        columns: 3
         spacing: 10
         anchors.horizontalCenter: parent.horizontalCenter
-
-        // Génération des boutons chiffres avec Repeater
-        Repeater {
-            model: ["7","8","9","4","5","6","1","2","3"]
-
-            CalculatorButton {
-                buttonText: modelData
-                buttonType: "number"
-                onButtonClicked: function(text, type) {
-                    paGrid.buttonClicked(text, type)
-                }
-            }
-        }
+        CalculatorButton { buttonText: "C"; buttonType: "action"; buttonColor: "#e74c3c"; onButtonClicked: function(text, type) { grid.buttonClicked(text, type) } }
+        CalculatorButton { buttonText: "R"; buttonType: "action"; buttonColor: "#f39c12"; onButtonClicked: function(text, type) { grid.buttonClicked(text, type) } }
+        CalculatorButton { buttonText: "%"; buttonType: "operator"; buttonColor: "#f39c12"; onButtonClicked: function(text, type) { grid.buttonClicked(text, type) } }
+        CalculatorButton { buttonText: "PA1"; buttonType: "pensionOperator"; buttonColor: "#f39c12"; onButtonClicked: function(text, type) { grid.buttonClicked(text, type) } }
     }
 
-    // Ligne : 0 et point décimal
+    // Ligne 2
     Row {
-        anchors.horizontalCenter: parent.horizontalCenter
         spacing: 10
-
-        CalculatorButton {
-            buttonText: "0"
-            buttonType: "number"
-            onButtonClicked: function(text, type) {
-                paGrid.buttonClicked(text, type)
-            }
-        }
-
-        CalculatorButton {
-            buttonText: "."
-            buttonType: "number"
-            onButtonClicked: function(text, type) {
-                paGrid.buttonClicked(text, type)
-            }
-        }
+        anchors.horizontalCenter: parent.horizontalCenter
+        CalculatorButton { buttonText: "7"; buttonType: "number"; buttonColor: "#95a5a6"; onButtonClicked: function(text, type) { grid.buttonClicked(text, type) } }
+        CalculatorButton { buttonText: "8"; buttonType: "number"; buttonColor: "#95a5a6"; onButtonClicked: function(text, type) { grid.buttonClicked(text, type) } }
+        CalculatorButton { buttonText: "9"; buttonType: "number"; buttonColor: "#95a5a6"; onButtonClicked: function(text, type) { grid.buttonClicked(text, type) } }
+        CalculatorButton { buttonText: "PA2"; buttonType: "pensionOperator"; buttonColor: "#f39c12"; onButtonClicked: function(text, type) { grid.buttonClicked(text, type) } }
     }
 
-    // Boutons de calcul PA
+    // Ligne 3
     Row {
-        anchors.horizontalCenter: parent.horizontalCenter
         spacing: 10
+        anchors.horizontalCenter: parent.horizontalCenter
+        CalculatorButton { buttonText: "4"; buttonType: "number"; buttonColor: "#95a5a6"; onButtonClicked: function(text, type) { grid.buttonClicked(text, type) } }
+        CalculatorButton { buttonText: "5"; buttonType: "number"; buttonColor: "#95a5a6"; onButtonClicked: function(text, type) { grid.buttonClicked(text, type) } }
+        CalculatorButton { buttonText: "6"; buttonType: "number"; buttonColor: "#95a5a6"; onButtonClicked: function(text, type) { grid.buttonClicked(text, type) } }
+        CalculatorButton { buttonText: "PA3"; buttonType: "pensionOperator"; buttonColor: "#f39c12"; onButtonClicked: function(text, type) { grid.buttonClicked(text, type) } }
+    }
 
-        PensionButton {
-            pensionType: "PA1"
-            pensionMode: "Classique"
-            buttonColor: "#f39c12"
-            childrenCount: selectedChildren
+    // Ligne 4
+    Row {
+        spacing: 10
+        anchors.horizontalCenter: parent.horizontalCenter
+        CalculatorButton { buttonText: "1"; buttonType: "number"; buttonColor: "#95a5a6"; onButtonClicked: function(text, type) { grid.buttonClicked(text, type) } }
+        CalculatorButton { buttonText: "2"; buttonType: "number"; buttonColor: "#95a5a6"; onButtonClicked: function(text, type) { grid.buttonClicked(text, type) } }
+        CalculatorButton { buttonText: "3"; buttonType: "number"; buttonColor: "#95a5a6"; onButtonClicked: function(text, type) { grid.buttonClicked(text, type) } }
+        CalculatorButton { buttonText: "+"; buttonType: "operator"; buttonColor: "#f39c12"; onButtonClicked: function(text, type) { grid.buttonClicked(text, type) } }
+    }
 
-            onPensionClicked: function(type, mode, children) {
-                paGrid.pensionCalculationRequested(type, mode, children)
+    // Ligne 5 - Avec ComboBox pour nombre d'enfants
+    Row {
+        spacing: 10
+        anchors.horizontalCenter: parent.horizontalCenter
+        CalculatorButton { buttonText: "0"; buttonType: "number"; buttonColor: "#95a5a6"; onButtonClicked: function(text, type) { grid.buttonClicked(text, type) } }
+        CalculatorButton { buttonText: "."; buttonType: "number"; buttonColor: "#95a5a6"; onButtonClicked: function(text, type) { grid.buttonClicked(text, type) } }
+
+        // ComboBox pour sélectionner le nombre d'enfants
+        ComboBox {
+            width: 130
+            height: 60
+
+            // Modèle avec nombres de 1 à 9
+            model: ["1 enfant", "2 enfants", "3 enfants", "4 enfants", "5 enfants",
+                    "6 enfants", "7 enfants", "8 enfants", "9 enfants"]
+
+            currentIndex: 0  // Par défaut : 1 enfant
+
+            // Style cohérent avec vos boutons
+            background: Rectangle {
+                color: "transparent"
+                border.color: "#3498db"
+                border.width: 1
+                radius: 10
             }
-        }
 
-        PensionButton {
-            pensionType: "PA2"
-            pensionMode: "Alternée"
-            buttonColor: "#9b59b6"
-            childrenCount: selectedChildren
-
-            onPensionClicked: function(type, mode, children) {
-                paGrid.pensionCalculationRequested(type, mode, children)
+            contentItem: Text {
+                text: parent.displayText
+                color: "#3498db"
+                font.pixelSize: 14
+                font.bold: true
+                verticalAlignment: Text.AlignVCenter
+                horizontalAlignment: Text.AlignHCenter
             }
-        }
 
-        PensionButton {
-            pensionType: "PA3"
-            pensionMode: "Réduite"
-            buttonColor: "#e74c3c"
-            childrenCount: selectedChildren
-
-            onPensionClicked: function(type, mode, children) {
-                paGrid.pensionCalculationRequested(type, mode, children)
+            // Signal quand la sélection change
+            onCurrentIndexChanged: {
+                console.log("Nombre d'enfants sélectionné:", currentIndex + 1)
+                // Émettre le signal avec le nombre d'enfants
+                grid.pensionCalculationRequested("children", "selected", currentIndex + 1)
             }
         }
     }
