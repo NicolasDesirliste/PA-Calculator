@@ -1,0 +1,16 @@
+module MyCalculator
+typeinfo appMyCalculator.qmltypes
+prefer :/qt/qml/MyCalculator/
+Main 1.0 Main.qml
+CalculatorDisplay 1.0 CalculatorDisplay.qml
+CalculatorButton 1.0 CalculatorButton.qml
+CalculatorLogic 1.0 CalculatorLogic.qml
+CalculatorGrid 1.0 CalculatorGrid.qml
+CalculatorWindow 1.0 CalculatorWindow.qml
+CalculatorLayout 1.0 CalculatorLayout.qml
+ModeSelector 1.0 ModeSelector.qml
+ChildrenSelector 1.0 ChildrenSelector.qml
+PensionButton 1.0 PensionButton.qml
+CalculatorGridPA 1.0 CalculatorGridPA.qml
+depends QtQuick
+

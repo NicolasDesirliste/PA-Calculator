@@ -6,7 +6,7 @@ Window {
     width: 600
     height: 600
     visible: true
-    title: "My Calculator"
+    title: "PA Calculator"
 
     // FOND AVEC GRADIENT ET EFFETS
     Rectangle {
@@ -66,7 +66,7 @@ Window {
         // TIMER POUR L'EFFET DE BRILLANCE
         Timer {
             id: glareTimer
-            interval: 15000  // 15 secondes par passages.
+            interval: 12000  // 15 secondes par passages.
             running: true
             repeat: true
             onTriggered: {
@@ -90,7 +90,7 @@ Window {
                 target: glareEffect
                 property: "y"
                 to: window.height + 200
-                duration: 3000
+                duration: 7000
             }
             onFinished: {
                 glareEffect.visible = false
@@ -103,6 +103,8 @@ Window {
         anchors.fill: parent
         calculatorInstance: calculator
 
+        /* Débugg utilisé pour vérifie si l'objet
+        calculator est bien disponible quand CalculatorWindow se crée */
         Component.onCompleted: {
             console.log("CalculatorWindow - calculator disponible:", calculator)
             console.log("CalculatorWindow - typeof calculator:", typeof calculator)

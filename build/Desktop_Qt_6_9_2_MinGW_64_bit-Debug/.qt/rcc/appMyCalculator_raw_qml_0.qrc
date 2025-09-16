@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="/qt/qml/MyCalculator/">
+    <file alias="Main.qml">C:/Users/33769/Documents/MyCalculator/Main.qml</file>
+    <file alias="CalculatorDisplay.qml">C:/Users/33769/Documents/MyCalculator/CalculatorDisplay.qml</file>
+    <file alias="CalculatorButton.qml">C:/Users/33769/Documents/MyCalculator/CalculatorButton.qml</file>
+    <file alias="CalculatorLogic.qml">C:/Users/33769/Documents/MyCalculator/CalculatorLogic.qml</file>
+    <file alias="CalculatorGrid.qml">C:/Users/33769/Documents/MyCalculator/CalculatorGrid.qml</file>
+    <file alias="CalculatorWindow.qml">C:/Users/33769/Documents/MyCalculator/CalculatorWindow.qml</file>
+    <file alias="CalculatorLayout.qml">C:/Users/33769/Documents/MyCalculator/CalculatorLayout.qml</file>
+    <file alias="ModeSelector.qml">C:/Users/33769/Documents/MyCalculator/ModeSelector.qml</file>
+    <file alias="ChildrenSelector.qml">C:/Users/33769/Documents/MyCalculator/ChildrenSelector.qml</file>
+    <file alias="PensionButton.qml">C:/Users/33769/Documents/MyCalculator/PensionButton.qml</file>
+    <file alias="CalculatorGridPA.qml">C:/Users/33769/Documents/MyCalculator/CalculatorGridPA.qml</file>
+  </qresource>
+</RCC>
+

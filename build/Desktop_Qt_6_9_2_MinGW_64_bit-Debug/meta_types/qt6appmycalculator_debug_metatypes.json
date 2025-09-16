@@ -1,0 +1,88 @@
+[
+    {
+        "classes": [
+            {
+                "className": "Calculator",
+                "lineNumber": 7,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "display",
+                        "notify": "displayChanged",
+                        "read": "getDisplay",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "Calculator",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "displayChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "number",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "addNumber",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "op",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "addOperator",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "calculate",
+                        "returnType": "double"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "name": "clear",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "name": "getDisplay",
+                        "returnType": "QString"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "Calculator.h",
+        "outputRevision": 69
+    }
+]

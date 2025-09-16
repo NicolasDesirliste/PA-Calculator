@@ -1,0 +1,220 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 296,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 6
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 89,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 260,
+                        "errorMessage": "",
+                        "functionName": "onButtonClicked",
+                        "line": 24
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 69,
+                        "errorMessage": "",
+                        "functionName": "onButtonClicked",
+                        "line": 24
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 211,
+                        "errorMessage": "",
+                        "functionName": "onChildrenChanged",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 39,
+                        "errorMessage": "",
+                        "functionName": "onChildrenChanged",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 81,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 42
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 259,
+                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
+                        "functionName": "model",
+                        "line": 46
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 29,
+                        "durationMicroseconds": 36,
+                        "errorMessage": "Cannot access value for name modelData",
+                        "functionName": "buttonText",
+                        "line": 49
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 34,
+                        "durationMicroseconds": 121,
+                        "errorMessage": "",
+                        "functionName": "onButtonClicked",
+                        "line": 51
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 34,
+                        "durationMicroseconds": 40,
+                        "errorMessage": "",
+                        "functionName": "onButtonClicked",
+                        "line": 51
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 86,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 60
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 118,
+                        "errorMessage": "",
+                        "functionName": "onButtonClicked",
+                        "line": 66
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "onButtonClicked",
+                        "line": 66
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 113,
+                        "errorMessage": "",
+                        "functionName": "onButtonClicked",
+                        "line": 74
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "onButtonClicked",
+                        "line": 74
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 93,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 82
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 18,
+                        "errorMessage": "Cannot access value for name selectedChildren",
+                        "functionName": "childrenCount",
+                        "line": 89
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 113,
+                        "errorMessage": "",
+                        "functionName": "onPensionClicked",
+                        "line": 91
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 41,
+                        "errorMessage": "",
+                        "functionName": "onPensionClicked",
+                        "line": 91
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 25,
+                        "errorMessage": "Cannot access value for name selectedChildren",
+                        "functionName": "childrenCount",
+                        "line": 100
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 161,
+                        "errorMessage": "",
+                        "functionName": "onPensionClicked",
+                        "line": 102
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 48,
+                        "errorMessage": "",
+                        "functionName": "onPensionClicked",
+                        "line": 102
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 16,
+                        "errorMessage": "Cannot access value for name selectedChildren",
+                        "functionName": "childrenCount",
+                        "line": 111
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 146,
+                        "errorMessage": "",
+                        "functionName": "onPensionClicked",
+                        "line": 113
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 41,
+                        "errorMessage": "",
+                        "functionName": "onPensionClicked",
+                        "line": 113
+                    }
+                ],
+                "filePath": "C:/Users/33769/Documents/MyCalculator/CalculatorGridPA.qml"
+            }
+        ],
+        "moduleId": "MyCalculator(appMyCalculator)"
+    }
+]
