@@ -976,6 +976,8 @@ appMyCalculator_autogen/timestamp: \
 	C:/Users/33769/Documents/MyCalculator/ExpressionEvaluator.h \
 	C:/Users/33769/Documents/MyCalculator/ExpressionParser.cpp \
 	C:/Users/33769/Documents/MyCalculator/ExpressionParser.h \
+	C:/Users/33769/Documents/MyCalculator/PensionCalculator.cpp \
+	C:/Users/33769/Documents/MyCalculator/PensionCalculator.h \
 	C:/Users/33769/Documents/MyCalculator/Tokenizer.cpp \
 	C:/Users/33769/Documents/MyCalculator/Tokenizer.h \
 	C:/Users/33769/Documents/MyCalculator/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.qt/qml_imports/appMyCalculator_conf.cmake \

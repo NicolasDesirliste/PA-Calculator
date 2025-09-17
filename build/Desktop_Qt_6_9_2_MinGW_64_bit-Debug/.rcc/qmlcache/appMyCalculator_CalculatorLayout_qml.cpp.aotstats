@@ -6,122 +6,138 @@
                     {
                         "codegenSuccessful": true,
                         "column": 19,
-                        "durationMicroseconds": 220,
+                        "durationMicroseconds": 205,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 7
+                        "line": 9
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 27,
-                        "durationMicroseconds": 43,
+                        "durationMicroseconds": 37,
                         "errorMessage": "Cannot access value for name calculatorInstance",
                         "functionName": "calculatorObject",
-                        "line": 17
+                        "line": 21
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 16,
-                        "durationMicroseconds": 92,
+                        "durationMicroseconds": 79,
                         "errorMessage": "",
                         "functionName": "width",
-                        "line": 22
+                        "line": 26
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 22,
-                        "durationMicroseconds": 36,
+                        "durationMicroseconds": 41,
                         "errorMessage": "Cannot access value for name currentMode",
                         "functionName": "visible",
-                        "line": 28
+                        "line": 32
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 30,
-                        "durationMicroseconds": 187,
+                        "durationMicroseconds": 119,
                         "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
                         "functionName": "onButtonClicked",
-                        "line": 31
+                        "line": 36
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 30,
-                        "durationMicroseconds": 44,
+                        "durationMicroseconds": 53,
                         "errorMessage": "",
                         "functionName": "onButtonClicked",
-                        "line": 31
+                        "line": 36
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 31,
-                        "durationMicroseconds": 47,
+                        "durationMicroseconds": 55,
                         "errorMessage": "",
                         "functionName": "centerIn",
-                        "line": 29
+                        "line": 33
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 22,
-                        "durationMicroseconds": 29,
+                        "durationMicroseconds": 27,
                         "errorMessage": "Cannot access value for name currentMode",
                         "functionName": "visible",
-                        "line": 39
+                        "line": 44
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 30,
-                        "durationMicroseconds": 147,
+                        "durationMicroseconds": 117,
                         "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
                         "functionName": "onButtonClicked",
-                        "line": 43
+                        "line": 49
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 30,
+                        "durationMicroseconds": 32,
+                        "errorMessage": "",
+                        "functionName": "onButtonClicked",
+                        "line": 49
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 44,
+                        "durationMicroseconds": 200,
+                        "errorMessage": "",
+                        "functionName": "onPensionCalculationRequested",
+                        "line": 54
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 44,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "onPensionCalculationRequested",
+                        "line": 54
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 37,
+                        "durationMicroseconds": 314,
+                        "errorMessage": "Cannot generate efficient code for lookup of function property.",
+                        "functionName": "onChildrenCountChanged",
+                        "line": 60
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 37,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "",
+                        "functionName": "onChildrenCountChanged",
+                        "line": 60
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
                         "durationMicroseconds": 38,
                         "errorMessage": "",
-                        "functionName": "onButtonClicked",
-                        "line": 43
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 44,
-                        "durationMicroseconds": 209,
-                        "errorMessage": "",
-                        "functionName": "onPensionCalculationRequested",
-                        "line": 47
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 44,
-                        "durationMicroseconds": 39,
-                        "errorMessage": "",
-                        "functionName": "onPensionCalculationRequested",
-                        "line": 47
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 31,
-                        "durationMicroseconds": 42,
-                        "errorMessage": "",
                         "functionName": "centerIn",
-                        "line": 40
+                        "line": 45
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 35,
-                        "durationMicroseconds": 64,
+                        "durationMicroseconds": 74,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
-                        "line": 61
+                        "line": 79
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 53,
+                        "durationMicroseconds": 131,
                         "errorMessage": "Cannot find name currentMode",
                         "functionName": "onModeChanged",
-                        "line": 67
+                        "line": 86
                     },
                     {
                         "codegenSuccessful": true,
@@ -129,7 +145,7 @@
                         "durationMicroseconds": 35,
                         "errorMessage": "",
                         "functionName": "onModeChanged",
-                        "line": 67
+                        "line": 86
                     }
                 ],
                 "filePath": "C:/Users/33769/Documents/MyCalculator/CalculatorLayout.qml"

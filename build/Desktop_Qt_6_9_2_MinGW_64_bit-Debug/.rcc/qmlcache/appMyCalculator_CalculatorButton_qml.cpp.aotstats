@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 15,
-                        "durationMicroseconds": 97,
+                        "durationMicroseconds": 136,
                         "errorMessage": "Cannot access value for name buttonText",
                         "functionName": "text",
                         "line": 25
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 30,
-                        "durationMicroseconds": 295,
+                        "durationMicroseconds": 400,
                         "errorMessage": "Cannot access value for name Text",
                         "functionName": "horizontalAlignment",
                         "line": 29
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 189,
+                        "durationMicroseconds": 331,
                         "errorMessage": "Cannot access value for name Text",
                         "functionName": "verticalAlignment",
                         "line": 30

@@ -1,72 +1,101 @@
 import QtQuick
 
 Column {
-    property var calculatorInstance
-    property int currentMode: 0  // 0 = Calculatrice normale, 1 = Pension Alimentaire
+    // PROPRIÉTÉS DU COMPOSANT PRINCIPAL
+    property var calculatorInstance                          // Instance de Calculator C++ passée depuis CalculatorWindow
+    property int currentMode: 0                             // Mode actuel: 0=Calculatrice normale, 1=Pension Alimentaire
 
-    anchors.fill: parent
-    anchors.margins: 20
-    spacing: 20
+    // POSITIONNEMENT ET ESPACEMENT
+    anchors.fill: parent                                    // Remplit tout l'espace du parent
+    anchors.margins: 20                                     // Marge de 20px sur tous les côtés
+    spacing: 20                                             // Espacement de 20px entre les composants
 
+    // ÉCRAN D'AFFICHAGE - Montre les calculs et résultats
     CalculatorDisplay {
-        id: displayText
+        id: displayText                                     // Identifiant pour référencer l'affichage
     }
 
+    // LOGIQUE DE CALCUL - Traite les actions des boutons
     CalculatorLogic {
-        id: calculatorLogic
-        calculatorObject: calculatorInstance
+        id: calculatorLogic                                 // Identifiant pour référencer la logique
+        calculatorObject: calculatorInstance               // Passe l'instance Calculator C++ à la logique
     }
 
-    // Grille qui change selon le mode
+    // CONTAINER DES GRILLES - Contient les différentes interfaces
     Item {
-        width: parent.width
-        height: 380  // Hauteur augmentée pour éviter le débordement
+        width: parent.width                                 // Prend toute la largeur disponible
+        height: 380                                         // Hauteur fixe pour accommoder PA
 
-        // Grille calculatrice normale
+        // GRILLE CALCULATRICE NORMALE - Interface standard
         CalculatorGrid {
-            id: normalGrid
-            visible: currentMode === 0
-            anchors.centerIn: parent
+            id: normalGrid                                  // Identifiant de la grille normale
+            visible: currentMode === 0                      // Visible seulement si mode = 0 (calculatrice)
+            anchors.centerIn: parent                        // Centré dans le container
 
+            // CONNEXION SIGNAUX - Quand un bouton normal est cliqué
             onButtonClicked: function(text, type) {
-                calculatorLogic.processButtonAction(text, type)
+                calculatorLogic.processButtonAction(text, type)  // Traite l'action via CalculatorLogic
             }
         }
 
-        // Grille pension alimentaire
+        // GRILLE PENSION ALIMENTAIRE - Interface spécialisée PA
         CalculatorGridPA {
-            id: paGrid
-            visible: currentMode === 1
-            anchors.centerIn: parent
-            anchors.topMargin: 20  // Marge supplémentaire en haut
+            id: paGrid                                      // Identifiant de la grille PA
+            visible: currentMode === 1                      // Visible seulement si mode = 1 (pension alimentaire)
+            anchors.centerIn: parent                        // Centré dans le container
+            anchors.topMargin: 20                           // Marge supplémentaire en haut
 
+            // CONNEXION BOUTONS - Traite les clics sur boutons PA
             onButtonClicked: function(text, type) {
-                calculatorLogic.processButtonAction(text, type)
+                calculatorLogic.processButtonAction(text, type)  // Traite via la même logique
             }
 
+            // CONNEXION ANCIEN SIGNAL PA - Gardé pour compatibilité
             onPensionCalculationRequested: function(type, mode, children) {
-                console.log("Calcul PA demandé:", type, mode, "pour", children, "enfants")
-                // TODO: Appeler la logique C++ de calcul de pension
+                console.log("Signal PA ancien format:", type, mode, "pour", children, "enfants")
+                // Ce signal pourrait être supprimé plus tard
+            }
+
+            // NOUVELLE CONNEXION - Nombre d'enfants sélectionné dans ComboBox
+            onChildrenCountChanged: function(count) {
+                console.log("CalculatorLayout: Nombre d'enfants changé à", count)
+                // Transmet le nombre d'enfants à CalculatorLogic
+                if (calculatorLogic.updateChildrenCount) {
+                    calculatorLogic.updateChildrenCount(count)  // Met à jour la logique PA
+                } else {
+                    console.log("ERREUR: updateChildrenCount n'existe pas dans CalculatorLogic")
+                }
             }
         }
     }
 
-    // Espacement supplémentaire avant le sélecteur
+    // ESPACEMENT SUPPLÉMENTAIRE - Évite que le sélecteur soit collé aux boutons
     Item {
-        height: 30  // Plus d'espace pour éviter que le sélecteur soit collé aux boutons PA
+        height: 30                                          // Espace vide de 30px de hauteur
     }
 
-    // Sélecteur de mode en bas
+    // SÉLECTEUR DE MODE - Bascule entre calculatrice et PA
     Row {
-        anchors.horizontalCenter: parent.horizontalCenter
-        spacing: 20
+        anchors.horizontalCenter: parent.horizontalCenter   // Centré horizontalement
+        spacing: 20                                         // Espacement de 20px
 
         ModeSelector {
-            id: modeSelector
+            id: modeSelector                                // Identifiant du sélecteur de mode
 
+            // CHANGEMENT DE MODE - Quand l'utilisateur sélectionne un mode différent
             onModeChanged: function(mode) {
-                currentMode = mode
-                console.log("Mode changé vers:", mode === 0 ? "Calculatrice" : "Pension Alimentaire")
+                currentMode = mode                          // Met à jour le mode actuel
+
+                // LOG POUR DÉBOGAGE - Affiche le mode sélectionné
+                console.log("Mode changé vers:",
+                    mode === 0 ? "Calculatrice normale" :
+                    mode === 1 ? "Pension Alimentaire" :
+                    "Mode inconnu (" + mode + ")")
+
+                // RÉINITIALISATION - Efface les calculs en cours lors du changement de mode
+                if (calculatorLogic && calculatorLogic.resetPensionValues) {
+                    calculatorLogic.resetPensionValues()    // Reset des valeurs PA
+                }
             }
         }
     }

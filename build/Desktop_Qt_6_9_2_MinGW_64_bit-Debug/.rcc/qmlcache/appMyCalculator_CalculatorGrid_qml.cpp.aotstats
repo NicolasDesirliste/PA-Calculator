@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 31,
-                        "durationMicroseconds": 445,
+                        "durationMicroseconds": 453,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 9
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 16,
-                        "durationMicroseconds": 8345,
+                        "durationMicroseconds": 3135,
                         "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
                         "functionName": "model",
                         "line": 17
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 25,
-                        "durationMicroseconds": 119,
+                        "durationMicroseconds": 84,
                         "errorMessage": "Cannot access value for name modelData",
                         "functionName": "buttonText",
                         "line": 50
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 25,
-                        "durationMicroseconds": 38,
+                        "durationMicroseconds": 34,
                         "errorMessage": "Cannot access value for name modelData",
                         "functionName": "buttonType",
                         "line": 51
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 36,
+                        "durationMicroseconds": 33,
                         "errorMessage": "Cannot access value for name modelData",
                         "functionName": "buttonColor",
                         "line": 52
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 30,
-                        "durationMicroseconds": 369,
+                        "durationMicroseconds": 300,
                         "errorMessage": "",
                         "functionName": "onButtonClicked",
                         "line": 54
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 30,
-                        "durationMicroseconds": 74,
+                        "durationMicroseconds": 67,
                         "errorMessage": "",
                         "functionName": "onButtonClicked",
                         "line": 54

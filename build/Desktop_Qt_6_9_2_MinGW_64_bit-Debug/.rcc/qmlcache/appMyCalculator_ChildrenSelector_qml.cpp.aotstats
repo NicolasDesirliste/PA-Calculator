@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 36,
-                        "durationMicroseconds": 167,
+                        "durationMicroseconds": 362,
                         "errorMessage": "Cannot access value for name currentIndex",
                         "functionName": "selectedChildren",
                         "line": 10
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 15,
-                        "durationMicroseconds": 49,
+                        "durationMicroseconds": 37,
                         "errorMessage": "Cannot access value for name childrenSelector",
                         "functionName": "text",
                         "line": 35
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 318,
+                        "durationMicroseconds": 247,
                         "errorMessage": "Cannot access value for name Text",
                         "functionName": "verticalAlignment",
                         "line": 39
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 30,
-                        "durationMicroseconds": 214,
+                        "durationMicroseconds": 210,
                         "errorMessage": "Cannot access value for name Text",
                         "functionName": "horizontalAlignment",
                         "line": 40
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 29,
-                        "durationMicroseconds": 16,
+                        "durationMicroseconds": 15,
                         "errorMessage": "Cannot access value for name contentHeight",
                         "functionName": "implicitHeight",
                         "line": 52
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 20,
-                        "durationMicroseconds": 82,
+                        "durationMicroseconds": 442,
                         "errorMessage": "Cannot access value for name childrenSelector",
                         "functionName": "model",
                         "line": 53
@@ -94,7 +94,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 27,
-                        "durationMicroseconds": 25,
+                        "durationMicroseconds": 20,
                         "errorMessage": "Cannot access value for name childrenSelector",
                         "functionName": "currentIndex",
                         "line": 54
@@ -110,7 +110,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 19,
-                        "durationMicroseconds": 329,
+                        "durationMicroseconds": 246,
                         "errorMessage": "Cannot access value for name modelData",
                         "functionName": "text",
                         "line": 73
@@ -118,7 +118,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 32,
-                        "durationMicroseconds": 201,
+                        "durationMicroseconds": 187,
                         "errorMessage": "Cannot access value for name Text",
                         "functionName": "verticalAlignment",
                         "line": 76
@@ -126,7 +126,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 34,
-                        "durationMicroseconds": 249,
+                        "durationMicroseconds": 232,
                         "errorMessage": "Cannot access value for name Text",
                         "functionName": "horizontalAlignment",
                         "line": 77
@@ -134,7 +134,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 20,
-                        "durationMicroseconds": 39,
+                        "durationMicroseconds": 65,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "color",
                         "line": 81

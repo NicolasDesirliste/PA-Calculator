@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 31,
-                        "durationMicroseconds": 252,
+                        "durationMicroseconds": 241,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 8
@@ -14,330 +14,330 @@
                     {
                         "codegenSuccessful": true,
                         "column": 35,
-                        "durationMicroseconds": 71,
+                        "durationMicroseconds": 76,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
-                        "line": 16
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 108,
-                        "durationMicroseconds": 156,
-                        "errorMessage": "",
-                        "functionName": "onButtonClicked",
-                        "line": 17
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 108,
-                        "durationMicroseconds": 49,
-                        "errorMessage": "",
-                        "functionName": "onButtonClicked",
-                        "line": 17
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 108,
-                        "durationMicroseconds": 121,
-                        "errorMessage": "",
-                        "functionName": "onButtonClicked",
                         "line": 18
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 108,
-                        "durationMicroseconds": 37,
+                        "column": 30,
+                        "durationMicroseconds": 175,
                         "errorMessage": "",
                         "functionName": "onButtonClicked",
-                        "line": 18
+                        "line": 25
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 110,
+                        "column": 30,
+                        "durationMicroseconds": 52,
+                        "errorMessage": "",
+                        "functionName": "onButtonClicked",
+                        "line": 25
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
                         "durationMicroseconds": 114,
                         "errorMessage": "",
                         "functionName": "onButtonClicked",
-                        "line": 19
+                        "line": 35
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 110,
+                        "column": 30,
+                        "durationMicroseconds": 38,
+                        "errorMessage": "",
+                        "functionName": "onButtonClicked",
+                        "line": 35
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 143,
+                        "errorMessage": "",
+                        "functionName": "onButtonClicked",
+                        "line": 45
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "onButtonClicked",
+                        "line": 45
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 133,
+                        "errorMessage": "",
+                        "functionName": "onButtonClicked",
+                        "line": 55
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 41,
+                        "errorMessage": "",
+                        "functionName": "onButtonClicked",
+                        "line": 55
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 75,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 64
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 138,
+                        "errorMessage": "",
+                        "functionName": "onButtonClicked",
+                        "line": 71
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "onButtonClicked",
+                        "line": 71
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 114,
+                        "errorMessage": "",
+                        "functionName": "onButtonClicked",
+                        "line": 79
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
                         "durationMicroseconds": 35,
                         "errorMessage": "",
                         "functionName": "onButtonClicked",
-                        "line": 19
+                        "line": 79
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 119,
-                        "durationMicroseconds": 121,
-                        "errorMessage": "",
-                        "functionName": "onButtonClicked",
-                        "line": 20
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 119,
-                        "durationMicroseconds": 39,
-                        "errorMessage": "",
-                        "functionName": "onButtonClicked",
-                        "line": 20
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 35,
-                        "durationMicroseconds": 69,
-                        "errorMessage": "",
-                        "functionName": "horizontalCenter",
-                        "line": 26
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 108,
-                        "durationMicroseconds": 117,
-                        "errorMessage": "",
-                        "functionName": "onButtonClicked",
-                        "line": 27
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 108,
-                        "durationMicroseconds": 34,
-                        "errorMessage": "",
-                        "functionName": "onButtonClicked",
-                        "line": 27
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 108,
+                        "column": 30,
                         "durationMicroseconds": 107,
                         "errorMessage": "",
                         "functionName": "onButtonClicked",
-                        "line": 28
+                        "line": 87
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 108,
-                        "durationMicroseconds": 33,
+                        "column": 30,
+                        "durationMicroseconds": 35,
                         "errorMessage": "",
                         "functionName": "onButtonClicked",
-                        "line": 28
+                        "line": 87
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 108,
-                        "durationMicroseconds": 103,
+                        "column": 30,
+                        "durationMicroseconds": 118,
                         "errorMessage": "",
                         "functionName": "onButtonClicked",
-                        "line": 29
+                        "line": 97
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 108,
-                        "durationMicroseconds": 34,
+                        "column": 30,
+                        "durationMicroseconds": 38,
                         "errorMessage": "",
                         "functionName": "onButtonClicked",
-                        "line": 29
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 119,
-                        "durationMicroseconds": 89,
-                        "errorMessage": "",
-                        "functionName": "onButtonClicked",
-                        "line": 30
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 119,
-                        "durationMicroseconds": 33,
-                        "errorMessage": "",
-                        "functionName": "onButtonClicked",
-                        "line": 30
+                        "line": 97
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 35,
-                        "durationMicroseconds": 59,
+                        "durationMicroseconds": 61,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
-                        "line": 36
+                        "line": 106
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 108,
+                        "column": 30,
+                        "durationMicroseconds": 104,
+                        "errorMessage": "",
+                        "functionName": "onButtonClicked",
+                        "line": 113
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 61,
+                        "errorMessage": "",
+                        "functionName": "onButtonClicked",
+                        "line": 113
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 92,
+                        "errorMessage": "",
+                        "functionName": "onButtonClicked",
+                        "line": 121
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 34,
+                        "errorMessage": "",
+                        "functionName": "onButtonClicked",
+                        "line": 121
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 128,
+                        "errorMessage": "",
+                        "functionName": "onButtonClicked",
+                        "line": 129
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 35,
+                        "errorMessage": "",
+                        "functionName": "onButtonClicked",
+                        "line": 129
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
                         "durationMicroseconds": 98,
                         "errorMessage": "",
                         "functionName": "onButtonClicked",
-                        "line": 37
+                        "line": 139
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 108,
-                        "durationMicroseconds": 36,
+                        "column": 30,
+                        "durationMicroseconds": 35,
                         "errorMessage": "",
                         "functionName": "onButtonClicked",
-                        "line": 37
+                        "line": 139
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 108,
-                        "durationMicroseconds": 90,
+                        "column": 35,
+                        "durationMicroseconds": 82,
                         "errorMessage": "",
-                        "functionName": "onButtonClicked",
-                        "line": 38
+                        "functionName": "horizontalCenter",
+                        "line": 148
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 108,
-                        "durationMicroseconds": 32,
-                        "errorMessage": "",
-                        "functionName": "onButtonClicked",
-                        "line": 38
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 108,
+                        "column": 30,
                         "durationMicroseconds": 117,
                         "errorMessage": "",
                         "functionName": "onButtonClicked",
-                        "line": 39
+                        "line": 155
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 108,
-                        "durationMicroseconds": 33,
+                        "column": 30,
+                        "durationMicroseconds": 79,
                         "errorMessage": "",
                         "functionName": "onButtonClicked",
-                        "line": 39
+                        "line": 155
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 119,
-                        "durationMicroseconds": 87,
+                        "column": 30,
+                        "durationMicroseconds": 111,
                         "errorMessage": "",
                         "functionName": "onButtonClicked",
-                        "line": 40
+                        "line": 163
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 119,
-                        "durationMicroseconds": 42,
+                        "column": 30,
+                        "durationMicroseconds": 36,
                         "errorMessage": "",
                         "functionName": "onButtonClicked",
-                        "line": 40
+                        "line": 163
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 35,
-                        "durationMicroseconds": 97,
-                        "errorMessage": "",
-                        "functionName": "horizontalCenter",
-                        "line": 46
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 108,
-                        "durationMicroseconds": 116,
+                        "column": 30,
+                        "durationMicroseconds": 150,
                         "errorMessage": "",
                         "functionName": "onButtonClicked",
-                        "line": 47
+                        "line": 171
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 108,
-                        "durationMicroseconds": 33,
-                        "errorMessage": "",
-                        "functionName": "onButtonClicked",
-                        "line": 47
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 108,
-                        "durationMicroseconds": 86,
-                        "errorMessage": "",
-                        "functionName": "onButtonClicked",
-                        "line": 48
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 108,
-                        "durationMicroseconds": 32,
-                        "errorMessage": "",
-                        "functionName": "onButtonClicked",
-                        "line": 48
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 108,
-                        "durationMicroseconds": 100,
-                        "errorMessage": "",
-                        "functionName": "onButtonClicked",
-                        "line": 49
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 108,
-                        "durationMicroseconds": 45,
-                        "errorMessage": "",
-                        "functionName": "onButtonClicked",
-                        "line": 49
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 110,
+                        "column": 30,
                         "durationMicroseconds": 84,
                         "errorMessage": "",
                         "functionName": "onButtonClicked",
-                        "line": 50
+                        "line": 171
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 110,
-                        "durationMicroseconds": 32,
+                        "column": 30,
+                        "durationMicroseconds": 164,
                         "errorMessage": "",
                         "functionName": "onButtonClicked",
-                        "line": 50
+                        "line": 181
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 43,
+                        "errorMessage": "",
+                        "functionName": "onButtonClicked",
+                        "line": 181
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 35,
-                        "durationMicroseconds": 73,
+                        "durationMicroseconds": 65,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
-                        "line": 56
+                        "line": 190
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 108,
-                        "durationMicroseconds": 87,
+                        "column": 30,
+                        "durationMicroseconds": 94,
                         "errorMessage": "",
                         "functionName": "onButtonClicked",
-                        "line": 57
+                        "line": 197
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 108,
-                        "durationMicroseconds": 33,
+                        "column": 30,
+                        "durationMicroseconds": 35,
                         "errorMessage": "",
                         "functionName": "onButtonClicked",
-                        "line": 57
+                        "line": 197
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 108,
-                        "durationMicroseconds": 127,
+                        "column": 30,
+                        "durationMicroseconds": 140,
                         "errorMessage": "",
                         "functionName": "onButtonClicked",
-                        "line": 58
+                        "line": 207
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 108,
-                        "durationMicroseconds": 34,
+                        "column": 30,
+                        "durationMicroseconds": 36,
                         "errorMessage": "",
                         "functionName": "onButtonClicked",
-                        "line": 58
+                        "line": 207
                     },
                     {
                         "codegenSuccessful": false,
@@ -345,7 +345,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"model\".",
                         "functionName": "model",
-                        "line": 66
+                        "line": 219
                     },
                     {
                         "codegenSuccessful": false,
@@ -353,31 +353,31 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find signal \"currentIndexChanged\".",
                         "functionName": "onCurrentIndexChanged",
-                        "line": 89
+                        "line": 243
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 23,
-                        "durationMicroseconds": 20,
+                        "durationMicroseconds": 21,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "text",
-                        "line": 80
+                        "line": 234
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 36,
-                        "durationMicroseconds": 215,
+                        "durationMicroseconds": 223,
                         "errorMessage": "Cannot access value for name Text",
                         "functionName": "verticalAlignment",
-                        "line": 84
+                        "line": 238
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 38,
-                        "durationMicroseconds": 123,
+                        "durationMicroseconds": 137,
                         "errorMessage": "Cannot access value for name Text",
                         "functionName": "horizontalAlignment",
-                        "line": 85
+                        "line": 239
                     }
                 ],
                 "filePath": "C:/Users/33769/Documents/MyCalculator/CalculatorGridPA.qml"

@@ -84,5 +84,205 @@
         ],
         "inputFile": "Calculator.h",
         "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "PensionCalculator",
+                "enums": [
+                    {
+                        "isClass": false,
+                        "isFlag": false,
+                        "name": "TypePA",
+                        "values": [
+                            "PA1_CLASSIQUE",
+                            "PA2_ALTERNEE",
+                            "PA3_REDUITE"
+                        ]
+                    }
+                ],
+                "lineNumber": 11,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "revenuDebiteur",
+                        "notify": "revenuDebiteurChanged",
+                        "read": "getRevenuDebiteur",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "write": "setRevenuDebiteur"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "revenuCreancier",
+                        "notify": "revenuCreancierChanged",
+                        "read": "getRevenuCreancier",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "write": "setRevenuCreancier"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "nombreEnfants",
+                        "notify": "nombreEnfantsChanged",
+                        "read": "getNombreEnfants",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setNombreEnfants"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "name": "montantPA",
+                        "notify": "montantPAChanged",
+                        "read": "getMontantPA",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "PensionCalculator",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "revenuDebiteurChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "name": "revenuCreancierChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "name": "nombreEnfantsChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "montantPAChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "montant",
+                                "type": "double"
+                            },
+                            {
+                                "name": "details",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 4,
+                        "name": "calculTermine",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "revenuDebiteur",
+                                "type": "double"
+                            },
+                            {
+                                "name": "nombreEnfants",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 5,
+                        "name": "calculerPA1",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "revenuDebiteur",
+                                "type": "double"
+                            },
+                            {
+                                "name": "revenuCreancier",
+                                "type": "double"
+                            },
+                            {
+                                "name": "nombreEnfants",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 6,
+                        "name": "calculerPA2",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "revenuDebiteur",
+                                "type": "double"
+                            },
+                            {
+                                "name": "nombreEnfants",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 7,
+                        "name": "calculerPA3",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 8,
+                        "name": "clear",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 9,
+                        "isConst": true,
+                        "name": "getDetailsCalcul",
+                        "returnType": "QString"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "PensionCalculator.h",
+        "outputRevision": 69
     }
 ]

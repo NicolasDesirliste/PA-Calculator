@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 343,
+                        "durationMicroseconds": 250,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 13
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 26,
-                        "durationMicroseconds": 140,
+                        "durationMicroseconds": 93,
                         "errorMessage": "",
                         "functionName": "orientation",
                         "line": 15
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 22,
-                        "durationMicroseconds": 2549,
+                        "durationMicroseconds": 2948,
                         "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
                         "functionName": "onPaint",
                         "line": 25
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 99,
+                        "durationMicroseconds": 60,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 23
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 30,
-                        "durationMicroseconds": 90,
+                        "durationMicroseconds": 76,
                         "errorMessage": "",
                         "functionName": "orientation",
                         "line": 54
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 27,
-                        "durationMicroseconds": 60,
+                        "durationMicroseconds": 41,
                         "errorMessage": "Cannot access value for name height",
                         "functionName": "y",
                         "line": 62
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 26,
-                        "durationMicroseconds": 437,
+                        "durationMicroseconds": 291,
                         "errorMessage": "",
                         "functionName": "onTriggered",
                         "line": 72
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 25,
-                        "durationMicroseconds": 157,
+                        "durationMicroseconds": 89,
                         "errorMessage": "",
                         "functionName": "onFinished",
                         "line": 95
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 25,
-                        "durationMicroseconds": 85,
+                        "durationMicroseconds": 64,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 84
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 21,
-                        "durationMicroseconds": 253,
+                        "durationMicroseconds": 138,
                         "errorMessage": "",
                         "functionName": "to",
                         "line": 86
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 25,
-                        "durationMicroseconds": 71,
+                        "durationMicroseconds": 78,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 90
@@ -94,7 +94,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 21,
-                        "durationMicroseconds": 137,
+                        "durationMicroseconds": 84,
                         "errorMessage": "",
                         "functionName": "to",
                         "line": 92
@@ -102,7 +102,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 29,
-                        "durationMicroseconds": 310,
+                        "durationMicroseconds": 247,
                         "errorMessage": "Cannot access value for name calculator",
                         "functionName": "calculatorInstance",
                         "line": 104
@@ -110,7 +110,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 65,
+                        "durationMicroseconds": 48,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 103
@@ -118,7 +118,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 32,
-                        "durationMicroseconds": 298,
+                        "durationMicroseconds": 183,
                         "errorMessage": "Cannot access value for name calculator",
                         "functionName": "onCompleted",
                         "line": 108

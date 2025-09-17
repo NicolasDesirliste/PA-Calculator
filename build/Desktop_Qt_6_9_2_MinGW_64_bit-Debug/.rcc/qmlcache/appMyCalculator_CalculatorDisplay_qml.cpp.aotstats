@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 12,
-                        "durationMicroseconds": 284,
+                        "durationMicroseconds": 445,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 7
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 15,
-                        "durationMicroseconds": 589,
+                        "durationMicroseconds": 531,
                         "errorMessage": "Cannot access value for name calculator",
                         "functionName": "text",
                         "line": 18
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 84,
+                        "durationMicroseconds": 103,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 17

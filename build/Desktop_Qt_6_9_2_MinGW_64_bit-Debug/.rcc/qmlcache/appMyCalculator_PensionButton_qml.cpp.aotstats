@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 23,
-                        "durationMicroseconds": 158,
+                        "durationMicroseconds": 133,
                         "errorMessage": "Cannot access value for name pensionButton",
                         "functionName": "color",
                         "line": 23
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 20,
-                        "durationMicroseconds": 35,
+                        "durationMicroseconds": 40,
                         "errorMessage": "Cannot access value for name pensionButton",
                         "functionName": "color",
                         "line": 30
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 22,
-                        "durationMicroseconds": 64,
+                        "durationMicroseconds": 63,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "opacity",
                         "line": 31
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 27,
-                        "durationMicroseconds": 12,
+                        "durationMicroseconds": 15,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "fill",
                         "line": 29
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 19,
-                        "durationMicroseconds": 32,
+                        "durationMicroseconds": 30,
                         "errorMessage": "Cannot access value for name pensionType",
                         "functionName": "text",
                         "line": 46
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 20,
-                        "durationMicroseconds": 27,
+                        "durationMicroseconds": 23,
                         "errorMessage": "Cannot access value for name pensionButton",
                         "functionName": "color",
                         "line": 47
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 39,
-                        "durationMicroseconds": 26,
+                        "durationMicroseconds": 13,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "horizontalCenter",
                         "line": 50
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 19,
-                        "durationMicroseconds": 27,
+                        "durationMicroseconds": 20,
                         "errorMessage": "Cannot access value for name pensionMode",
                         "functionName": "text",
                         "line": 54
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 39,
-                        "durationMicroseconds": 16,
+                        "durationMicroseconds": 11,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "horizontalCenter",
                         "line": 57
